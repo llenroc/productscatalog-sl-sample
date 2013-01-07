@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductsCatalog", "ProductsCatalog\ProductsCatalog.csproj", "{D7C9BC7E-A69C-4341-9229-9928A3E3B3B5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EA1A54A6-64CC-4525-B56F-7919A903C769} = {EA1A54A6-64CC-4525-B56F-7919A903C769}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductsCatalog.Web", "ProductsCatalog.Web\ProductsCatalog.Web.csproj", "{EA1A54A6-64CC-4525-B56F-7919A903C769}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7C9BC7E-A69C-4341-9229-9928A3E3B3B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7C9BC7E-A69C-4341-9229-9928A3E3B3B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7C9BC7E-A69C-4341-9229-9928A3E3B3B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7C9BC7E-A69C-4341-9229-9928A3E3B3B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA1A54A6-64CC-4525-B56F-7919A903C769}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA1A54A6-64CC-4525-B56F-7919A903C769}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA1A54A6-64CC-4525-B56F-7919A903C769}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA1A54A6-64CC-4525-B56F-7919A903C769}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
